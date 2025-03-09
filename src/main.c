@@ -127,7 +127,7 @@ void parse_command_line(int argc, char** argv, instance *inst)
 	strcpy(inst->input_file, "NULL");
 	inst->seed = 0; 
 	inst->nnodes = -1;
-	inst->time_limit = 60; 
+	inst->time_limit = 3; 
 	inst->time_left = inst->time_limit;
 	inst->best_sol_cost = 1e+20;
 	int got_input_file = 0;
